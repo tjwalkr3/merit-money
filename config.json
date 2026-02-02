@@ -1,0 +1,59 @@
+{
+  "pool_per_person": 100,
+  "categories": [
+    {
+      "name": "Individual Hours",
+      "total_weight": 0.35,
+      "subcategories": [
+        {
+          "name": "Hours Entered into timesheet in a reasonable time",
+          "breakdown_weight": 0.30,
+          "type": "boolean"
+        },
+        {
+          "name": "Individual Hours",
+          "breakdown_weight": 0.70,
+          "type": "hours",
+          "requirement": 8
+        }
+      ]
+    },
+    {
+      "name": "Task Completion",
+      "total_weight": 0.45,
+      "subcategories": [
+        {
+          "name": "#Finished/NumGlobalTotal",
+          "breakdown_weight": 0.40,
+          "type": "ratio"
+        },
+        {
+          "name": "Completed Assigned Hours/Tasks In Heartbeats",
+          "breakdown_weight": 0.40,
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "Quality & Pipeline",
+      "total_weight": 0.20,
+      "subcategories": [
+        {
+          "name": "Logic has test suite and task has criteria",
+          "breakdown_weight": 0.40,
+          "type": "boolean"
+        },
+        {
+          "name": "Tests Pass and match story template",
+          "breakdown_weight": 0.40,
+          "type": "boolean"
+        },
+        {
+          "name": "Doesn't break pipeline",
+          "breakdown_weight": 0.20,
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}
