@@ -4,7 +4,7 @@
       "name": "Jesus",
       "performance": {
         "Hours Entered into timesheet in a reasonable time": true,
-        "Individual Hours": {"hours": 8, "minutes": 54},
+        "Individual Hours": {"hours": 8, "minutes": 23},
         "#Finished/NumGlobalTotal": 3,
         "Completed Assigned Hours/Tasks In Heartbeats": true,
         "Logic has test suite and task has criteria": true,
@@ -16,7 +16,7 @@
       "name": "Thomas",
       "performance": {
         "Hours Entered into timesheet in a reasonable time": true,
-        "Individual Hours": {"hours": 8, "minutes": 15},
+        "Individual Hours": {"hours": 8, "minutes": 18},
         "#Finished/NumGlobalTotal": 3,
         "Completed Assigned Hours/Tasks In Heartbeats": true,
         "Logic has test suite and task has criteria": true,
@@ -28,7 +28,7 @@
       "name": "Rhys",
       "performance": {
         "Hours Entered into timesheet in a reasonable time": true,
-        "Individual Hours": {"hours": 7, "minutes": 44},
+        "Individual Hours": {"hours": 7, "minutes": 35},
         "#Finished/NumGlobalTotal": 3,
         "Completed Assigned Hours/Tasks In Heartbeats": true,
         "Logic has test suite and task has criteria": true,

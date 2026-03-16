@@ -6,7 +6,8 @@ install:
 	$(VENV_DIR)/bin/pip install --upgrade pip
 
 .PHONY: run
-run: $(VENV_DIR)
+run:
+	@test -x $(VENV_DIR)/bin/python || $(MAKE) install
 	$(VENV_DIR)/bin/python merit_calculator.py
 
 .PHONY: clean
