@@ -136,7 +136,7 @@ class MeritMoneyCalculator:
             total_distributed += result["total"]
 
         print("=" * 40)
-        print(f"{'Total':30s} ${total_distributed:.2f}\n")
+        print(f"{'Total':30s} ${total_distributed:7.2f}\n")
 
 
 def main():
